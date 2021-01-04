@@ -1,0 +1,57 @@
+/*Header format*/
+.header {
+  background-color: #F2F2F2;
+  text-align: center;
+  padding: 20px;
+}
+/*Format for naviagtion bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.navbar a:hover {
+  background-color: #F1F1F1;
+  color: black;
+} 
+/* Links - change color on active page */
+.navbar a.current {
+  background-color: #ddd;
+  color: black;
+} 
+
+
+/*content*/
+.content {
+    padding: 10px;
+    padding-left:5%;
+    padding-right:5%;
+}
+.content.main {
+    width: 100%;
+    float: left;
+}
+
+.content:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+  font-size: x-small;
+}
